@@ -10,3 +10,7 @@ Tools are used to develop this application :
 	4.Mysql.  
 	
 The app will start running at http://localhost:8080
+
+Rest Api Url:
+
+http://localhost:8080/api/v1/students url will return student list as JSON.

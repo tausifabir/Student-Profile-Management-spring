@@ -1,5 +1,4 @@
-# abc 
-## abc
+# Student-Profile-Management
 This is student management application developed by spring boot. 
 This application shows list of registered students and features like create , update and delete student's profile.
 

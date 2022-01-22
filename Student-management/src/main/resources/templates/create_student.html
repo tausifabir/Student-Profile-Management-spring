@@ -23,7 +23,7 @@
 									name="studentName"
 									th:field="*{studentName}"
 									class="form-control"
-									placeholder="Enter Your Name"/>
+									placeholder="Enter Your Name" required minlength="4" maxlength="30"/>
 								</div>
 								
 								
@@ -32,7 +32,7 @@
 									<input type="date"
 									name="studentDate"
 									th:field="*{studentDate}"
-									class="form-control"
+									class="form-control" required max="2022-12-31"
 									/>
 								</div>
 								
@@ -40,18 +40,19 @@
 								
 								<div class="form-group mb-2">
 									<label>Student Gender</label>
+									
 									<div class="form-control">
 											
 											<input type="radio"
 											name="studentGender"
 											th:field="*{studentGender}"
 											value="Male"
+											required
 											/> Male 
 											
 											<input type="radio"
 											name="studentGender"
 											th:field="*{studentGender}"
-											
 											value="Female"
 											/> Female
 									</div>
